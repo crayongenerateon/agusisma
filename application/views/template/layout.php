@@ -16,7 +16,7 @@
 	<link href="media/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 	<link href="media/css/nivo-lightbox.css" rel="stylesheet" />
 	<link href="media/css/nivo-lightbox-theme/default/default.css" rel="stylesheet" type="text/css" />
-	<link href="css/animate.css" rel="stylesheet" />
+	<link href="media/css/animate.css" rel="stylesheet" />
 	<!-- Squad theme CSS -->
 	<link href="media/css/style.css" rel="stylesheet">
 	<link href="media/color/default.css" rel="stylesheet">

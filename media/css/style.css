@@ -1,4 +1,14 @@
 /* ==== Google font ==== */
+@font-face {
+	font-family: 'JuliusSansOne-Regular';
+	src: url(../media/fonts/JuliusSansOne-Regular.ttf);
+}
+
+@font-face {
+	font-family: 'Lato';
+	src: url(../media/fonts/Lato.ttf);
+}
+
 
 body {
     width: 100%;
@@ -22,7 +32,7 @@ h5,
 h6 {
     margin: 0 0 30px;
     text-transform: uppercase;
-    font-family: Montserrat,Julius Sans One;
+    font-family: Montserrat,'JuliusSansOne-Regular';
     font-weight: 700;
     letter-spacing: 1px;
 }
