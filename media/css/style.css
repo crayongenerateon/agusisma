@@ -1,12 +1,26 @@
 /* ==== Google font ==== */
 @font-face {
 	font-family: 'JuliusSansOne-Regular';
-	src: url(../media/fonts/JuliusSansOne-Regular.ttf);
+	src: url(../media/fonts/JuliusSansOne-Regular.ttf)
+	format("ttf"),
+	src: url(../media/fonts/JuliusSansOne-Regular.eot)
+	format("eot"),
+	src: url(../media/fonts/JuliusSansOne-Regular.svg)
+	format("svg"),
+	src: url(../media/fonts/JuliusSansOne-Regular.woff)
+	format("woff");
 }
 
 @font-face {
 	font-family: 'Lato';
-	src: url(../media/fonts/Lato.ttf);
+	src: url(../media/fonts/Lato.ttf)
+	format("ttf"),
+	src: url(../media/fonts/Lato.eot)
+	format("eot"),
+	src: url(../media/fonts/Lato.svg)
+	format("svg"),
+	src: url(../media/fonts/Lato.woff)
+	format("woff");
 }
 
 
