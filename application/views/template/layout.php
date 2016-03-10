@@ -120,7 +120,7 @@
 		<div class="row">
 			<div class="col-md-4 col-md-8">
 				<div class="kotak-1">
-					<img src="media/img/agus/fd.jpg" alt="">
+					<img src="media/img/agus/Img-bg.jpg" alt="">
 					<div class="feature-content">
 						<h3>10 April 2016</h3>
 						<p>Tak terasa gelap pun jatuh. Di ujung malam menuku pagi yang sunyi. Hanya ada sadikit bintang malam ini, mungkin karena kau sedang cantik - cantiknya.</p>
@@ -136,7 +136,7 @@
 			</div>
 			<div class="col-md-4">
 				<div class="kotak-1">
-					<img src="media/img/agus/fd.jpg" alt="">
+					<img src="media/img/agus/Img-bg.jpg" alt="">
 					<div class="feature-content">
 						<h3>10 April 2016</h3>
 						<p>Lalu mataku terasa malu, semakin dalam ia malu kali ini. Mungkin juga ia takut, tatkala harus berpapasan ditengah pelariannya</p>
@@ -193,7 +193,7 @@
 		</div> -->
 		<div id="intro_1" class="intro_1">
 			<div id="background_bottom">
-				<img src="media/img/agus/fd.jpg" alt="Photo Moment">
+				<img src="media/img/agus/Img-bg.jpg" alt="Photo Moment">
 			</div>
 			<p>And now ...</p>
 			<div id="border_style_1">
