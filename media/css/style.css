@@ -13,13 +13,13 @@
 
 @font-face {
 	font-family: 'Lato';
-	src: url(../media/fonts/Lato.ttf)
+	src: url(../media/fonts/Lato-Leight.ttf)
 	format("ttf"),
-	src: url(../media/fonts/Lato.eot)
+	src: url(../media/fonts/Lato-Leight.eot)
 	format("eot"),
-	src: url(../media/fonts/Lato.svg)
+	src: url(../media/fonts/Lato-Leight.svg)
 	format("svg"),
-	src: url(../media/fonts/Lato.woff)
+	src: url(../media/fonts/Lato-Leight.woff)
 	format("woff");
 }
 
