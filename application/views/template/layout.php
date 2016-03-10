@@ -61,7 +61,7 @@
 	<section id="home">
 
 		<div id="background_image">
-			<img src="media/img/agus/fd.jpg" alt="">
+			<img src="media/img/agus/Img-bg.jpg" alt="">
 		</div>
 
 		<div id="border_style">
