@@ -294,7 +294,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12 col-lg-12">
-						<p>Copyright &copy; 2016  - by <a href="http://rumahcg.com">RumahCG</a></p>
+						<p>Copyright &copy; 2016  - by RumahCG	</p>
 					</div>
                 <!-- 
                     All links in the footer should remain intact. 
