@@ -3,6 +3,8 @@
 	font-family: 'JuliusSansOne-Regular';
 	src: url(../media/fonts/JuliusSansOne-Regular.ttf)
 	format("ttf"),
+	src: url(../media/fonts/JuliusSansOne-Regular.otf)
+	format("otf"),
 	src: url(../media/fonts/JuliusSansOne-Regular.eot)
 	format("eot"),
 	src: url(../media/fonts/JuliusSansOne-Regular.svg)
