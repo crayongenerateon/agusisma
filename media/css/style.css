@@ -1,27 +1,27 @@
 /* ==== Google font ==== */
 @font-face {
 	font-family: 'JuliusSansOne-Regular';
-	src: url(../media/fonts/JuliusSansOne-Regular.ttf)
-	format("ttf"),
-	src: url(../media/fonts/JuliusSansOne-Regular.otf)
+	src: url(../fonts/JuliusSansOne-Regular.ttf)
+	format("truetype"),
+	url(../fonts/JuliusSansOne-Regular.otf)
 	format("otf"),
-	src: url(../media/fonts/JuliusSansOne-Regular.eot)
+	url(../fonts/JuliusSansOne-Regular.eot)
 	format("eot"),
-	src: url(../media/fonts/JuliusSansOne-Regular.svg)
+	url(../fonts/JuliusSansOne-Regular.svg)
 	format("svg"),
-	src: url(../media/fonts/JuliusSansOne-Regular.woff)
+	url(../fonts/JuliusSansOne-Regular.woff)
 	format("woff");
 }
 
 @font-face {
 	font-family: 'Lato';
-	src: url(../media/fonts/Lato-Leight.ttf)
+	src: url(../fonts/Lato-Leight.ttf)
 	format("ttf"),
-	src: url(../media/fonts/Lato-Leight.eot)
+	url(../fonts/Lato-Leight.eot)
 	format("eot"),
-	src: url(../media/fonts/Lato-Leight.svg)
+	url(../fonts/Lato-Leight.svg)
 	format("svg"),
-	src: url(../media/fonts/Lato-Leight.woff)
+	url(../fonts/Lato-Leight.woff)
 	format("woff");
 }
 
