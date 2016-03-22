@@ -15,12 +15,12 @@
 }
 
 @font-face{
-	font-family: 'Savoye LET';
-	src: url(../fonts/Savoye LET.ttf)
+	font-family: 'Savoye-LET';
+	src: url(../fonts/Savoye-LET.ttf)
 	format("truetype"),
-	url(../fonts/Savoye LET.ttc)
+	url(../fonts/Savoye-LET.ttc)
 	format("ttc"),
-	url(../fonts/Savoye LET.otf)
+	url(../fonts/Savoye-LET.otf)
 	format("otf");
 }
 
@@ -238,13 +238,13 @@ hr {
 }
 
 .section-heading p{
-	font-family: 'Savoye LET';
+	font-family: 'Savoye-LET';
 	font-size: 26px;
 	letter-spacing: 1.2px;
 }
 
 .row p{
-	font-family: 'Savoye LET';
+	font-family: 'Savoye-LET';
 	font-size: 24px;
 	letter-spacing: 1.2px;
 }
@@ -350,7 +350,7 @@ hr {
 }
 
 .btn a{
-	font-family: 'Savoye LET';
+	font-family: 'Savoye-LET';
 	font-size: 20px;
 }
 
