@@ -2,327 +2,340 @@
 <html lang="en">
 
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="">
-	<meta name="author" content="">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-	<title>Agusima</title>
+    <title>Agusima</title>
 
-	<!-- Bootstrap Core CSS -->
-	<link href="<?php echo base_url('media/css/bootstrap.min.css') ?>" rel="stylesheet" type="text/css">
+    <!-- Bootstrap Core CSS -->
+    <link href="<?php echo base_url('media/css/bootstrap.min.css') ?>" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
 
-	<!-- Fonts -->
-	<link href="<?php echo base_url('media/font-awesome/css/font-awesome.min.css') ?> " rel="stylesheet" type="text/css">
-	<link href="<?php echo base_url('media/css/nivo-lightbox.css') ?>" rel="stylesheet" />
-	<link href="<?php echo base_url('media/css/nivo-lightbox-theme/default/default.css') ?>" rel="stylesheet" type="text/css" />
-	<link href="<?php echo base_url('media/css/animate.css') ?>" rel="stylesheet" />
-	<!-- Squad theme CSS -->
-	<link href="<?php echo base_url('media/css/style.css') ?>" rel="stylesheet">
-	<link href="<?php echo base_url('media/color/default.css') ?>" rel="stylesheet">
+    <!-- Fonts -->
+    
+    <link href="<?php echo base_url('media/font-awesome/css/font-awesome.min.css') ?>" rel="stylesheet" type="text/css">
+    <link href="<?php echo base_url('media/css/nivo-lightbox.css') ?>" rel="stylesheet" />
+    <link href="<?php echo base_url('media/css/nivo-lightbox-theme/default/default.css') ?>" rel="stylesheet" type="text/css" />
+    <link href="<?php echo base_url('media/css/animate.css') ?>" rel="stylesheet" />
+    <!-- Squad theme CSS -->
+    <link href="<?php echo base_url('media/css/style.css') ?>" rel="stylesheet">
+    <link href="<?php echo base_url('media/color/default.css') ?>" rel="stylesheet">
+    <link rel="stylesheet" href="<?php echo base_url('media/css/Story.css') ?>">
+    <link rel="stylesheet" href="<?php echo base_url('media/css/min.img.css') ?>"> 
 
 </head>
 
 <body data-spy="scroll">
-	<!--
-	<div id="background_image">
-		<img src="img/agus/fd.jpg" alt="">
-	</div>
+    
+    <!--
+    <div id="background_image">
+        <img src="img/agus/fd.jpg" alt="">
+    </div>
 
-	<div id="border_style"></div>
+    <div id="border_style"></div>
 
-	<section id="intro" class="intro">
-		<div class="slogan">
-			<p>You're Invited</p>
-			<h2>we are getting merried</h2>
-			<a href="#story" class="btn btn-skin scroll">More info</a>
-		</div>	
-		<div id="date">
-			<p>- Appril / 10th / 2016 -</p>
-		</div>
-		<div id="ayat">
-			<img src="img/agus/ayat_2.jpg" alt="Ayat suci AL-Qur'an">
-		</div>	
-		<div id="photo">
-			<section class="aa">
-				<p>Agus</p>
-				<img class="img_person" src="img/agus/agus.jpg" alt="AGUS">
-			</section>
+    <section id="intro" class="intro">
+        <div class="slogan">
+            <p>You're Invited</p>
+            <h2>we are getting merried</h2>
+            <a href="#story" class="btn btn-skin scroll">More info</a>
+        </div>  
+        <div id="date">
+            <p>- Appril / 10th / 2016 -</p>
+        </div>
+        <div id="ayat">
+            <img src="img/agus/ayat_2.jpg" alt="Ayat suci AL-Qur'an">
+        </div>  
+        <div id="photo">
+            <section class="aa">
+                <p>Agus</p>
+                <img class="img_person" src="img/agus/agus.jpg" alt="AGUS">
+            </section>
 
-			<section class="bb">
-				<p>Ima</p>
-				<img class="img_person" src="img/agus/ima.jpg" alt="IMA">
-			</section> 
-			<h1> & </h1>   
-		</div>
-	</section> -->
+            <section class="bb">
+                <p>Ima</p>
+                <img class="img_person" src="img/agus/ima.jpg" alt="IMA">
+            </section> 
+            <h1> & </h1>   
+        </div>
+    </section>--> 
 
-	<!-- Section: intro -->
-	<section id="home">
+    <!-- Section: intro -->
+    
+    <!-- /Section: intro -->
+    <!-- Navigation -->
+<section id="home">
 
-		<div id="background_image">
-			<img src="media/img/agus/Img-bg.jpg" alt="">
-		</div>
+    
+        <div id="background_image">
+            <img src="<?php echo base_url('media/img/prewed/edit/poster_landscape.jpg') ?>" alt="">
+        </div> 
 
-		<div id="border_style">
+    <div id="navigation">
+        <!--
+        <img src="#" alt="Icon"> -->
+        
+        <nav id="menu" class = "navbar navbar-default" role = "navigation">
 
-		</div>
-	</section>
-	<!-- /Section: intro -->
-	<!-- Navigation -->
-	<div id="navigation">
-		<!--
-		<img src="#" alt="Icon"> -->
-		
-		<nav id="menu" class = "navbar navbar-default" role = "navigation">
-			<div class = "navbar-header">
-				<a class = "navbar-brand" href = "#" >AGUS & IMA</a>
+            <div class = "navbar-header">
+                <a class = "navbar-brand page-scroll" href = "#" >AGUS & IMA</a>
 
-				<button type = "button" class = "navbar-toggle" 
-				data-toggle = "collapse" data-target = "#example-navbar-collapse">
-				<span class = "sr-only">Toggle navigation</span>
-				<span class = "icon-bar"></span>
-				<span class = "icon-bar"></span>
-				<span class = "icon-bar"></span>
-			</button>
+            <button type = "button" class = "navbar-toggle" 
+                data-toggle = "collapse" data-target = "#example-navbar-collapse">
+                <span class = "sr-only">Toggle navigation</span>
+                <span class = "icon-bar"></span>
+                <span class = "icon-bar"></span>
+                <span class = "icon-bar"></span>
+            </button>
 
-		</div>
-		<div class = "collapse navbar-collapse" id = "example-navbar-collapse">
-			<ul id="left" class="nav navbar-nav navbar-left">
-				<li><a href="#home">Home</a></li>
-				<li><a href="#story">Story</a></li>
-				<li><a href="#when">When</a></li>
-				<li><a href="#Location">Location</a></li>
-			</ul>
-		</div>
-	</nav>
-	<!-- Collect the nav links, forms, and other content for toggling -->
+        </div>
+        <div class = "collapse navbar-collapse" id = "example-navbar-collapse">
+            <ul id="left" class="nav navbar-nav navbar-left">
+                <li ><a href="#home">Home</a></li>
+                <li ><a href="#story">Story</a></li>
+                <li><a href="#when">When</a></li>
+                <li><a href="#Location">Location</a></li>
 
-	<!-- /.Navbar-collapse -->
-</div> 
+            </ul>
+        </div>
+    </nav>
+    </div>
+</section> 
+
 <!-- /Navigation -->  
-<!-- Section: about -->
-<section id="story" class="home-section text-center bg-gray">
-	<div class="heading-about marginbot-50">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-8 col-lg-offset-2">
-					<div class="section-heading">
-						<h2>Our Story</h2>
-						<p>Lorem ipsum dolor sit amet, no nisl mentitum recusabo per, vim at blandit qualisque dissentiunt. Diam efficiantur conclusionemque ut has</p>
-					</div>
 
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="container">
-		<div class="row">
-			<div class="col-md-4 col-md-8">
-				<div class="kotak-1">
-					<img src="media/img/agus/Img-bg.jpg" alt="">
-					<div class="feature-content">
-						<h3>10 April 2016</h3>
-						<p>Tak terasa gelap pun jatuh. Di ujung malam menuku pagi yang sunyi. Hanya ada sadikit bintang malam ini, mungkin karena kau sedang cantik - cantiknya.</p>
-					</div>	
-				</div>
-			</div>
-			<div class="col-lg-4 col-md-4 col-sm-4 feature text-center">
-				<p></p>
-				<div class="feature-content">
-					<h1>10</h1>
-					<p>April 2016</p>
-				</div>
-			</div>
-			<div class="col-md-4">
-				<div class="kotak-1">
-					<img src="media/img/agus/Img-bg.jpg" alt="">
-					<div class="feature-content">
-						<h3>10 April 2016</h3>
-						<p>Lalu mataku terasa malu, semakin dalam ia malu kali ini. Mungkin juga ia takut, tatkala harus berpapasan ditengah pelariannya</p>
-					</div>	
-				</div>
-			</div>
-		</div>
-	</div>
-	
-		<!--
-		<div id="Story_1">
-			<div class="story_img_1">
-				<img src="#" alt="Image First Meet">
-			</div>
-			<div class="story_img_2">
-				<img src="#" alt="">
-			</div>
-			<div id="story_text_heading">
-				<p>First meet</p>
-			</div>
-			<div class="story_text">
-				<p>&nbsp &nbsp Tak terasa gelap pun jatuh, di ujung malam menuju pagi yang dingin. Hanya ada sedikit bintang malam ini, mungkin karna kau sedang cantik - cantiknya.</p>
-			</div>
-		</div>
+    <!-- Section: Story -->
+    <section id="story" class="home-section text-center bg-gray">
 
-		<div id="Story_2">
-			<div id="story_text_heading_1">
-				<p>First dating</p>
-			</div>
-			<div class="story_text_2">
-				<p>&nbsp &nbsp Lalu mataku terasa malu, semakin dalam ia malu kali ini. Kadang juga ia takut, tatkala harus berpapasan ditengah pelariannya.</p>
-			</div>
-			<div class="story_img_4">
-				<img src="#" alt="">
-			</div>
-			<div class="story_img_3">
-				<img src="img/agus/fd.jpg" alt="Image First Dating">
-			</div>
-		</div>
+     
+      <div class="heading-about">
+        <div class="container marginbot-50">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="section-heading">
+                        <h1><b>Our Story</b></h1>
+                        <p>We should remember the differences that brought us here and keep alive the memories of what YOU & I in persuite of what we can become together</p>
+                    </div>
 
-		<div id="Story_3">
-			<div class="story_img_5">
-				<img src="#" alt="Image proposed">
-			</div>
-			<div class="story_img_6">
-				<img src="#" alt="">
-			</div>
-			<div id="story_text_heading_2">
-				<p>Her proposed</p>
-			</div>
-			<div class="story_text_3">
-				<p>&nbsp &nbsp Di malam hari, menuju pagi. Sedikit cemas, banyak rindunya.</p>
-			</div>
-		</div> -->
-		<div id="intro_1" class="intro_1">
-			<div id="background_bottom">
-				<img src="media/img/agus/Img-bg.jpg" alt="Photo Moment">
-			</div>
-			<p>And now ...</p>
-			<div id="border_style_1">
+                </div>
+            </div>
+        </div>
+    </div>
+        <div class="section-content">
+          <div class="story-timeline">
+            <div class="row">
+              <div class="each-story">
+                <div class="col-md-4">
+                  <h2 class="story-date p-sm-20 mt-sm-0"><em>10 Feb 2015</em></h2>
+                </div>
+                <div class="col-md-8">
+                  <div class="story-details">
+                    <div class="row">
+                      <div class="col-sm-9">
+                        <h4>First meet</h4>
+                        <p>"Mata kami bertemu untuk pertama kali, tak ada rasa, tak ada asa, hanya sedikit rasa penasaran, sibuk dengan cinta masing - masing, berjalan dengan arah berkelok, namun selalu bertemu pada satu titik"</p>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="story-thumb">
+                          <img class="img-box" src="<?php echo base_url('media/img/prewed/edit/edit2.jpg') ?>" alt="">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="each-story">
+                <div class="col-md-4 pull-right">
+                  <h2 class="story-date p-sm-20 mt-sm-0"><em>12 Jun 2015</em></h2>
+                </div>
+                <div class="col-md-8">
+                  <div class="story-details">
+                    <div class="row">
+                      <div class="col-sm-9">
+                        <h4 class="title">First date</h4>
+                        <p>"Di bengkel tua, hujan menjadi saksi pernyataan yang mengubah titik menjadi rangkaian ritme nada indah, cukup kata 'kita', setiap warna-warninya terasa bermakna"</p>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="story-thumb">
+                          <img class="img-box" src="<?php echo base_url('media/img/prewed/edit/edit1.jpg') ?>" alt="">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="each-story">
+                <div class="col-md-4">
+                  <h2 class="story-date p-sm-20 mt-sm-0"><em>19 Dec 2015</em></h2>
+                </div>
+                <div class="col-md-8">
+                  <div class="story-details">
+                    <div class="row">
+                      <div class="col-sm-9">
+                        <h4>Proposed</h4>
+                        <p>"Kilauan asa masa depan sudi bertandang di jari kami, mengharap ridho ilahi untuk melepaskan satu persatu mimpi, mengubah ritme nada menjadi sebuah lagu cinta untuk setiap hembusan nafas dan anugerah dari-Nya"</p>
+                      </div>
+                      <div class="col-sm-3">
+                        <div class="story-thumb">
+                          <img class="img-box" src="<?php echo base_url('media/img/prewed/edit/cetak1.jpg') ?>" alt="">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+                <!--<div class="col-md-12">
+                    <div class="video">
+                        <video autoplay loop>
+                            <source src="video/twins.mp4" type="video/mp4" >
+                        </video>
+                    </div>
+                </div>
+                 <div class="block"></div>-->
+            </div>
+          </div>
+        </div>
 
-				<span class="slogan">
+       
+      <!--
+      <div id="intro_1" class="intro_1">
+            <div id="background_bottom" >
+                <img src="img/agus/fd.jpg" alt="Photo Moment">
+                <div class="bg-bottom"></div>
+            </div>
+            <p>And now ...</p>
+            <div id="border_style_1">
 
-					<h2>we will get merried</h2>
-				</span>
-			</div>
-		</div>
-	</section>
-	<!-- /Section: about -->
+                <span class="slogan">
 
-	<!-- Section: services -->
-	<section id="when" class="home-section text-center">
-		<div class="container marginbot-50">
-			<div class="row">
-				<div class="col-lg-8 col-lg-offset-2">
-					<div>
-						<div class="section-heading text-center">
-							<h2 class="h-bold">When</h2>
-							<div class="divider-header"></div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
+                    <h2>we will get merried</h2>
+                </span>
+            </div>
+        </div>
+        </div>-->
+    </section> 
 
-		<div class="container">
-			<div class="row">
-				<div class="col-md-4  feature text-center">
-					<h3>Akad Nikah</h3>
-					<div class="feature-content">
-						<h5>Pukul 09.00 WIB</h5>
-						<p>Bertempat di kediaman mempelai wanita <span>Ds. Tlajung Udik RT 02 RW 07 No. 59. Kec. Gunung Putri, Kab. Bogor</span></p>
-					</div>
-				</div>
-				<div class="col-lg-4 col-md-4 col-sm-4 feature text-center">
-					<p>Minggu</p>
-					<div class="feature-content">
-						<h1>10</h1>
-						<p>April 2016</p>
-					</div>
-				</div>
-				<div class="col-md-4 feature text-center">
-					<h3>Resepsi Pernikahan</h3>
-					<div class="feature-content">
-						<h5>Pukul 11.00 WIB s/d Selesai</h5>
-						<p>Bertempat di kediaman mempelai wanita
-							<span>Ds. Tlajung Udik RT 02 RW 07 No. 59. Kec. Gunung Putri, Kab. Bogor</span></p>
-						</div>
-					</div>
-				</div>
-				<br>
-				<span>&nbsp;&nbsp;&nbsp;</span>
-				<div class="col-lg-12 col-md-12 col-sm-12 feature text-center">
-					<span><p>Merupakan suatu kehormatan dan kebahagiaan bagi kami apabila Bapak/Ibu/Saudara/I berkenan hadir untuk menyaksikan dan memberikan do'a restu kepada kedua mempelai</p></span>
-				</div>
-			</div>
-		</section>
-		<!-- /Section: services -->
+    <!-- /Section: about -->
+
+    <!-- Section: services -->
+    <section id="when" class="">
+        <div class="container">
+        <div class="container marginbot-50">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div>
+                        <div class="section-heading text-center">
+                            <h2 class="h-bold">When</h2>
+                            <div class="divider-header"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+            <div class="row">
+                <div class="col-md-4  feature text-center">
+                    <h3>Akad Nikah</h3>
+                    <div class="feature-content">
+                        <h5>Pukul 09.00 WIB</h5>
+                        <p>Bertempat di kediaman mempelai wanita <span>Ds. Tlajung Udik RT 02 RW 07 No. 59. Kec. Gunung Putri, Kab. Bogor</span></p>
+                    </div>
+                </div>
+                <div class="col-lg-4 feature text-center">
+                    <p>Minggu</p>
+                    <div class="feature-content">
+                        <h1>10</h1>
+                        <p>April 2016</p>
+                    </div>
+                </div>
+                <div class="col-md-4 feature text-center">
+                    <h3>Resepsi Pernikahan</h3>
+                    <div class="feature-content">
+                        <h5>Pukul 11.00 WIB s/d Selesai</h5>
+                        <p>Bertempat di kediaman mempelai wanita
+                            <span>Ds. Tlajung Udik RT 02 RW 07 No. 59. Kec. Gunung Putri, Kab. Bogor</span></p>
+                        </div>
+                    </div>
+                </div>
+                
+               <div class="col-lg-12  feature text-center">
+                    <span class="pas"><p>Merupakan suatu kehormatan dan kebahagiaan bagi kami apabila Bapak/Ibu/Saudara/I berkenan hadir untuk menyaksikan dan memberikan do'a restu kepada kedua mempelai</p></span>
+                </div>
+            </div>
+
+            
+        </section> 
+        <!-- /Section: services -->
 
 
-		<!-- Section: contact -->
-		<section id="Location" class="home-section text-center bg-gray">
-			<div class="heading-contact marginbot-50">
-				<div class="container">
-					<div class="row">
-						<div class="col-lg-8 col-lg-offset-2">
+        <!-- Section: contact -->
+        <section id="Location">
+        
+            <div class="heading-contact marginbot-50">
+                <div class="">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
 
-							<div class="section-heading">
-								<h2>Location</h2>
-								<p>Lorem ipsum dolor sit amet, no nisl mentitum recusabo per, vim at blandit qualisque dissentiunt. Diam efficiantur conclusionemque ut has</p>
-							</div>
+                            <div class="section-heading">
+                                <h2>Location</h2>
+                                <p></p>
+                            </div>
 
-						</div>
-					</div>
-				</div>
-			</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-			<div class="container">
-				<div class="row">
-					<div class="col-lg-12 ">
-						<div id="Navigate">
-							<script type="text/javascript" src="http://www.webestools.com/google_map_gen.js?lati=-6.445687&long=106.908278&zoom=15&width=600&height=400&mapType=normal&map_btn_normal=yes&map_btn_satelite=yes&map_btn_mixte=yes&map_small=yes&marqueur=yes&info_bulle=Location">
-							</script>
-						</div>
+           <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 ">
+                         <div id="Navigate">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6527.952012255751!2d106.90501326979958!3d-6.447758246577231!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNsKwMjYnNTIuMCJTIDEwNsKwNTQnMTguNyJF!5e0!3m2!1sen!2sid!4v1457636916848" width="270" height="500" frameborder="1" style="border:0" allowfullscreen></iframe>
+                        </div>
+                        <div class="btn">
+                        <a href="https://www.google.co.id/maps/dir//-6.4456874,106.9082778/@-6.4445104,106.9029992,15.23z/data=!4m5!1m4!3m3!1s0x0:0x0!2zNsKwMjYnNDQuNSJTIDEwNsKwNTQnMjkuOCJF!3b1?hl=en">
+                        <button id="get_nav">Get Navigation</button>
+                        </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> 
+        <!-- /Section: contact -->
 
-						<a href="https://www.google.co.id/maps/dir//-6.4456874,106.9082778/@-6.4445104,106.9029992,15.23z/data=!4m5!1m4!3m3!1s0x0:0x0!2zNsKwMjYnNDQuNSJTIDEwNsKwNTQnMjkuOCJF!3b1?hl=en"><button id="get_nav">Get Navigation</button>
-						</a>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- /Section: contact -->
-
-		<footer>
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12 col-lg-12">
-						<p>Copyright &copy; 2016  - by RumahCG	</p>
-					</div>
-                <!-- 
+        <footer id="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-lg-12">
+                        <p>Copyright &copy; 2014  - by <a href="#">RumahCG</a></p>
+                    <!--</div>
+                
                     All links in the footer should remain intact. 
                     Licenseing information is available at: http://bootstraptaste.com/license/
                     You can buy this theme without footer links online at: http://bootstraptaste.com/buy/?theme=Ninestars
-                -->
-            </div>	
-        </div>
+                
+            </div>-->   
+        </div> 
     </footer>
 
-    <script src="media/js/jquery.min.js"></script>
-    <script src="media/js/jquery.easing.min.js"></script>
-    <script src="media/js/gnmenu.js"></script>
-    <script src="media/js/custom.js"></script>
+  
     <!-- Core JavaScript Files -->
-    <script src="media/js/js/jquery.min.js"></script>	 
-    <script src="media/js/js/bootstrap.min.js"></script>
-    <script src="media/js/js/jquery.sticky.js"></script>
-    <script src="media/js/js/jquery.flexslider-min.js"></script>
-    <script src="media/js/js/jquery.easing.min.js"></script>	
-    <script src="media/js/js/jquery.scrollTo.js"></script>
-    <script src="media/js/js/jquery.appear.js"></script>
-    <script src="media/js/js/stellar.js"></script>
-    <script src="media/js/js/wow.min.js"></script>
-    <script src="media/js/js/owl.carousel.min.js"></script>
-    <script src="media/js/js/nivo-lightbox.min.js"></script>
+    <script src="<?php echo base_url('media/js/js/jquery.min.js') ?>"></script>  
+    <script src="<?php echo base_url('media/js/js/bootstrap.min.js') ?>"></script>
+    <script src="<?php echo base_url('media/js/js/jquery.sticky.js') ?>"></script>
+    <script src="<?php echo base_url('media/js/js/jquery.flexslider-min.js') ?>"></script>
+    <script src="<?php echo base_url('media/js/js/jquery.easing.min.js') ?>"></script>  
+    <script src="<?php echo base_url('media/js/js/jquery.scrollTo.js') ?>"></script>
+    <script src="<?php echo base_url('media/js/js/jquery.appear.js') ?>"></script>
+    <script src="<?php echo base_url('media/js/js/stellar.js') ?>"></script>
+    <script src="<?php echo base_url('media/js/js/wow.min.js') ?>"></script>
+    <script src="<?php echo base_url('media/js/js/owl.carousel.min.js') ?>"></script>
+    <script src="<?php echo base_url('media//nivo-lightbox.min.js') ?>js/js"></script>
 
-    <script src="media/js/js/custom.js"></script>
+    <script src="<?php echo base_url('media/js/js/custom.js') ?>"></script>
 
 </body>
 
