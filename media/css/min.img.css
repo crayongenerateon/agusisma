@@ -25,7 +25,8 @@ img {
 .img-box {
 	/*border-radius: 50%;*/
 	max-width: 210.328px;
-	max-height: 300.328px;
+	max-height: 123px;
+	margin-top: 25%;
 }
 
 .img-box img {
