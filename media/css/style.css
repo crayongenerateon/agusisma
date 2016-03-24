@@ -21,7 +21,16 @@
 	url(../fonts/Savoye-LET.ttc)
 	format("ttc"),
 	url(../fonts/Savoye-LET.otf)
-	format("otf");
+	format("otf"),
+	url(../fonts/Savoye-LET.eot)
+	format("eot"),
+	url(../fonts/Savoye-LET.svg)
+	format("svg"),
+	url(../fonts/Savoye-LET.woff)
+	format("woff"),
+	url(../fonts/Savoye-LET.woff2)
+	format("woff2");
+
 }
 
 body {
