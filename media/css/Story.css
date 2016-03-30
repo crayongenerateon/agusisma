@@ -10,24 +10,52 @@
 	padding-left: 3%;
 }
 	#when {
-		padding-left: 5%;
-		height: 1300px;
+		padding-left: 0%;
+		height: 1200px;
 	}
 	#when h3{
 		letter-spacing: 5px;
 	}
+	#date_1{
+	padding-top: 8%;
+	padding-bottom: 10%
+}
+}
+
+@media (min-width: 414px){
+	#date_1{
+	padding-top: 8%;
+	padding-bottom: 10%;
+}
+
+#when {
+		padding-left: 0%;
+		height:;
+	}
+	.loc-test{
+	margin-top: 0%;
+}
+#Location h2{
+		text-align: center;
+		float:center;
+		margin-top: 30%;
+	}
+
+}
+
+@media (max-width: 1280px){
+	#location{
+		padding-top: 25%;
+	}
 }
 
 
-
-@media (max-width: 1440px){
-	.row{
-		width:100%; 
-		padding-left: 3%;
-	}
+@media (min-width: 1440px){
+	
 	#Location h2{
 		text-align: center;
 		float:center;
+		margin-top: 0%;
 	}
 }
 
@@ -62,10 +90,10 @@
 }
 .story-timeline .each-story .story-date {
 	color: pink;
-	font-size: 28px;
+	font-size: 30px;
 	font-weight: 400;
 	padding: 40px 20px;
-	font-family: 'Savoye-LET';
+	font-family: 'JuliusSansOne-Regular';
 }
 /*
  * 3.19 -> Funfact

@@ -137,27 +137,12 @@ hr {
 	background-color: #000;
 }
 
-@media (min-width: 568px){
-	#background_image {
-	position:relative;
-	overflow:hidden;
-	max-width: 100%;
-	max-height: 750px;
-}
-
-#background_image img{
-	position:;
-	height: 100%;
-	width: 100%;
-	background-color: #000;
-}
-}
-
 /* ------- Navigation ------------ */
 #navigation {
 	position:relative;
 	text-align:center;
 	z-index:9999;
+	margin-top:;
 	width:100%;
 }
 
@@ -196,7 +181,6 @@ hr {
 	color:#fff;
 	background-color:#fff;
 }
-
 
 #navigation li{
 	margin-left: 20px;
@@ -237,29 +221,37 @@ hr {
 	position: relative;
 	margin-top: 0%;
 	margin-bottom: 0%;
-	padding-top: 15%;
+	padding-top: 5%;
 	background-color:;
 	
 }
 
 .section-heading{
-	margin-bottom: 5%;
+	margin-bottom: 20%;
 }
 
 .section-heading p{
-	font-family: 'Savoye-LET';
+	font-family: Savoye LET;
 	font-size: 26px;
 	letter-spacing: 1.2px;
 }
 
 .row p{
-	font-family: 'Savoye-LET';
+	font-family: Savoye LET;
 	font-size: 24px;
 	letter-spacing: 1.2px;
 }
 
 .section-heading h1{
 	font-size: 48px;
+}
+
+.section-heading img{
+	position:absolute;
+	width: 70%;
+	margin-left: -35%;
+	margin-top: -5%;
+	opacity:;
 }
 
 .video{
@@ -287,7 +279,7 @@ hr {
 
 #when {
 	position:relative;
-	height: 1100px;
+	height: 100%;
 	margin-top: 10%;
 	padding-top: 10%;
 	background-color:#fafafa;
@@ -298,8 +290,46 @@ hr {
 	font-size: 48px;
 }
 
+.when-head{
+	margin-left: -4%;
+}
+
 .pas p{
 	margin-top: 10%;
+}
+
+#date_1{
+	margin-top: -8%;
+}
+
+#date_1 img{
+	opacity:0.5;
+	width: 80%;
+}
+
+#date_1 p{
+	font-size: 38px;
+	color:pink;
+}
+
+#date_1 h1{
+	font-size: 2em;
+}
+
+.col-md-4 {
+	margin-top: 2.5%;
+}
+
+.test_1 {
+	margin-top: -15%;
+}
+
+.feature-content img{
+	position:absolute;
+	width: 70%;
+	margin-left: -35%;
+	margin-top: -5%;
+	opacity:0.5;
 }
 
 
@@ -316,10 +346,10 @@ hr {
 }
 
 #Location{
-	position:relative;
+	position:;
 	width: 100%;
-	height: 800px;
-	padding-top: 5%;
+	padding-top: 10%;
+	margin-top: 0%;
 }
 
 #Location h2{
@@ -356,10 +386,11 @@ hr {
 .btn {
 	width: 100%;
 	padding-left: 0%;
+	margin-bottom: 5%;
 }
 
 .btn a{
-	font-family: 'Savoye-LET';
+	font-family: Savoye LET;
 	font-size: 20px;
 }
 

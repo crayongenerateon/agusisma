@@ -1,0 +1,73 @@
+
+
+/*
+ * 3.19 -> Story Timeline
+ * -----------------------------------------------
+*/
+@media (max-width: 320px){
+	.row{
+	max-width: 320px;
+	padding-left: 3%;
+}
+	#when {
+		padding-left: 5%;
+		height: 1300px;
+	}
+	#when h3{
+		letter-spacing: 5px;
+	}
+}
+
+
+
+@media (max-width: 1440px){
+	.row{
+		width:100%; 
+		padding-left: 3%;
+	}
+	#Location h2{
+		text-align: center;
+		float:center;
+	}
+}
+
+.story-timeline .each-story {
+	border-radius: 10px;
+	float: left;
+	padding: 0 0px 30px;
+	width: 100%;
+	padding-left: 5%;
+}
+.story-timeline .each-story .story-details {
+	background: #eee;
+	padding: 20px;
+	margin-bottom: 20px;
+	float: left;
+	border-radius: 10px;
+}
+.story-timeline .each-story:last-child .story-details {
+	margin-bottom: 0;
+}
+.story-timeline .each-story:nth-child(2n) .story-details {
+	background: #EC7F9C;
+}
+.story-timeline .each-story:nth-child(2n) .story-details .title,
+.story-timeline .each-story:nth-child(2n) .story-details p {
+	color: #fff;
+}
+.story-timeline .each-story .story-thumb {
+}
+.story-timeline .each-story .story-thumb img {
+	border: 6px double #fff;
+}
+.story-timeline .each-story .story-date {
+	color: pink;
+	font-size: 28px;
+	font-weight: 400;
+	padding: 40px 20px;
+	font-family: 'Savoye-LET';
+}
+/*
+ * 3.19 -> Funfact
+ * -----------------------------------------------
+*/

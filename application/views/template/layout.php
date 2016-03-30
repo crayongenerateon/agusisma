@@ -70,7 +70,7 @@
 
     
         <div id="background_image">
-            <img src="<?php echo base_url('media/img/prewed/edit/poster_landscape.jpg') ?>" alt="">
+            <img src="<?php echo base_url('media/img/buatdewo_copy.jpg') ?>" alt="">
         </div> 
 
     <div id="navigation">
@@ -80,7 +80,7 @@
         <nav id="menu" class = "navbar navbar-default" role = "navigation">
 
             <div class = "navbar-header">
-                <a class = "navbar-brand page-scroll" href = "#" >AGUS & IMA</a>
+                <a class = "navbar-brand page-scroll" href = "#" >AGUS & ISMA</a>
 
             <button type = "button" class = "navbar-toggle" 
                 data-toggle = "collapse" data-target = "#example-navbar-collapse">
@@ -115,8 +115,11 @@
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
                     <div class="section-heading">
-                        <h1><b>Our Story</b></h1>
-                        <p>We should remember the differences that brought us here and keep alive the memories of what YOU & I in persuite of what we can become together</p>
+                        <h1>Story</h1>
+                        <!--<p>We should remember the differences that brought us here and keep alive the memories of what YOU & I in persuite of what we can become together</p> -->
+                        <div class="img_deco">
+                        <img src="media/img/tes_3.png" alt="">
+                        </div>
                     </div>
 
                 </div>
@@ -128,18 +131,20 @@
             <div class="row">
               <div class="each-story">
                 <div class="col-md-4">
-                  <h2 class="story-date p-sm-20 mt-sm-0"><em>10 Feb 2015</em></h2>
+                  <h2 class="story-date p-sm-20 mt-sm-0"><em> September 2010</em></h2>
                 </div>
                 <div class="col-md-8">
                   <div class="story-details">
                     <div class="row">
                       <div class="col-sm-9">
                         <h4>First meet</h4>
+
                         <p>"Mata kami bertemu untuk pertama kali, tak ada rasa, tak ada asa, hanya sedikit rasa penasaran, sibuk dengan cinta masing - masing, berjalan dengan arah berkelok, namun selalu bertemu pada satu titik"</p>
+
                       </div>
                       <div class="col-sm-3">
                         <div class="story-thumb">
-                          <img class="img-box" src="<?php echo base_url('media/img/prewed/edit/edit2.jpg') ?>" alt="">
+                          <img class="img-box" src="media/img/edit2.jpg" alt="">
                         </div>
                       </div>
                     </div>
@@ -148,7 +153,7 @@
               </div>
               <div class="each-story">
                 <div class="col-md-4 pull-right">
-                  <h2 class="story-date p-sm-20 mt-sm-0"><em>12 Jun 2015</em></h2>
+                  <h2 class="story-date p-sm-20 mt-sm-0"><em>November 2012</em></h2>
                 </div>
                 <div class="col-md-8">
                   <div class="story-details">
@@ -159,7 +164,7 @@
                       </div>
                       <div class="col-sm-3">
                         <div class="story-thumb">
-                          <img class="img-box" src="<?php echo base_url('media/img/prewed/edit/edit1.jpg') ?>" alt="">
+                          <img class="img-box" src="media/img/buatdewo.jpg" alt="">
                         </div>
                       </div>
                     </div>
@@ -168,7 +173,7 @@
               </div>
               <div class="each-story">
                 <div class="col-md-4">
-                  <h2 class="story-date p-sm-20 mt-sm-0"><em>19 Dec 2015</em></h2>
+                  <h2 class="story-date p-sm-20 mt-sm-0"><em>Januari 2016</em></h2>
                 </div>
                 <div class="col-md-8">
                   <div class="story-details">
@@ -179,7 +184,7 @@
                       </div>
                       <div class="col-sm-3">
                         <div class="story-thumb">
-                          <img class="img-box" src="<?php echo base_url('media/img/prewed/edit/cetak1.jpg') ?>" alt="">
+                          <img class="img-box" src="media/img/cetak1.jpg" alt="">
                         </div>
                       </div>
                     </div>
@@ -227,8 +232,10 @@
                 <div class="col-lg-8 col-lg-offset-2">
                     <div>
                         <div class="section-heading text-center">
-                            <h2 class="h-bold">When</h2>
-                            <div class="divider-header"></div>
+                        <div class="when-head">
+                            <h2>When</h2>
+                            <img src="media/img/tes_3.png" alt="">
+                          </div>
                         </div>
                     </div>
                 </div>
@@ -238,54 +245,50 @@
         
             <div class="row">
                 <div class="col-md-4  feature text-center">
-                    <h3>Akad Nikah</h3>
+                    <h3><b>Akad Nikah</b></h3>
                     <div class="feature-content">
                         <h5>Pukul 09.00 WIB</h5>
                         <p>Bertempat di kediaman mempelai wanita <span>Ds. Tlajung Udik RT 02 RW 07 No. 59. Kec. Gunung Putri, Kab. Bogor</span></p>
                     </div>
                 </div>
-                <div class="col-lg-4 feature text-center">
+               <div class="col-lg-4 feature text-center" id="date_1">
+                    <img src="media/img/tes_6.png" alt="">
                     <p>Minggu</p>
-                    <div class="feature-content">
-                        <h1>10</h1>
-                        <p>April 2016</p>
-                    </div>
+                    <h1>10</h1>
+                    <p>April 2016</p>
+                    <img src="media/img/tes_5.png" alt="" class="test_1">
                 </div>
                 <div class="col-md-4 feature text-center">
-                    <h3>Resepsi Pernikahan</h3>
+                    <h3><b>Resepsi Pernikahan</b></h3>
                     <div class="feature-content">
                         <h5>Pukul 11.00 WIB s/d Selesai</h5>
                         <p>Bertempat di kediaman mempelai wanita
-                            <span>Ds. Tlajung Udik RT 02 RW 07 No. 59. Kec. Gunung Putri, Kab. Bogor</span></p>
-                        </div>
+                            <span>Ds. Tlajung Udik RT 02 RW 07 No. 59. Kec. Gunung Putri, Kab. Bogor</span>
+                        </p>
                     </div>
                 </div>
-                
-               <div class="col-lg-12  feature text-center">
-                    <span class="pas"><p>Merupakan suatu kehormatan dan kebahagiaan bagi kami apabila Bapak/Ibu/Saudara/I berkenan hadir untuk menyaksikan dan memberikan do'a restu kepada kedua mempelai</p></span>
-                </div>
+              
             </div>
-
-            
-        </section> 
+        </div>
+     </section> 
         <!-- /Section: services -->
 
 
         <!-- Section: contact -->
         <section id="Location">
-        
+            <div class="container">
+                <div class="loc-test">
             <div class="heading-contact marginbot-50">
-                <div class="">
-                    <div class="row">
+                 <div class="row">
                         <div class="col-lg-8 col-lg-offset-2">
-
-                            <div class="section-heading">
+                        
+                            <div class="section-heading text-center">
                                 <h2>Location</h2>
+                                <img src="media/img/tes_3.png" alt="">
                                 <p></p>
                             </div>
-
+                        
                         </div>
-                    </div>
                 </div>
             </div>
 
@@ -293,15 +296,17 @@
                 <div class="row">
                     <div class="col-lg-12 ">
                          <div id="Navigate">
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6527.952012255751!2d106.90501326979958!3d-6.447758246577231!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNsKwMjYnNTIuMCJTIDEwNsKwNTQnMTguNyJF!5e0!3m2!1sen!2sid!4v1457636916848" width="270" height="500" frameborder="1" style="border:0" allowfullscreen></iframe>
+                           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3964.5811418182634!2d106.9033163149092!3d-6.447786664843096!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNsKwMjYnNTIuMCJTIDEwNsKwNTQnMTkuOCJF!5e0!3m2!1sen!2sid!4v1458742411195" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
                         </div>
                         <div class="btn">
-                        <a href="https://www.google.co.id/maps/dir//-6.4456874,106.9082778/@-6.4445104,106.9029992,15.23z/data=!4m5!1m4!3m3!1s0x0:0x0!2zNsKwMjYnNDQuNSJTIDEwNsKwNTQnMjkuOCJF!3b1?hl=en">
+                        <a href="https://https://www.google.co.id/maps/place/6%C2%B026'52.0%22S+106%C2%B054'19.8%22E/@-6.4477867,106.9033163,17z/data=!3m1!4b1!4m2!3m1!1s0x0:0x0?hl=en">
                         <button id="get_nav">Get Navigation</button>
                         </a>
                         </div>
                     </div>
                 </div>
+            </div>
+            </div>
             </div>
         </section> 
         <!-- /Section: contact -->
@@ -310,7 +315,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 col-lg-12">
-                        <p>Copyright &copy; 2014  - by <a href="#">RumahCG</a></p>
+                        <p>Copyright &copy; 2016  - by <a href="http://#">rumahCG.com</a></p>
                     <!--</div>
                 
                     All links in the footer should remain intact. 
@@ -323,19 +328,19 @@
 
   
     <!-- Core JavaScript Files -->
-    <script src="<?php echo base_url('media/js/js/jquery.min.js') ?>"></script>  
-    <script src="<?php echo base_url('media/js/js/bootstrap.min.js') ?>"></script>
-    <script src="<?php echo base_url('media/js/js/jquery.sticky.js') ?>"></script>
-    <script src="<?php echo base_url('media/js/js/jquery.flexslider-min.js') ?>"></script>
-    <script src="<?php echo base_url('media/js/js/jquery.easing.min.js') ?>"></script>  
-    <script src="<?php echo base_url('media/js/js/jquery.scrollTo.js') ?>"></script>
-    <script src="<?php echo base_url('media/js/js/jquery.appear.js') ?>"></script>
-    <script src="<?php echo base_url('media/js/js/stellar.js') ?>"></script>
-    <script src="<?php echo base_url('media/js/js/wow.min.js') ?>"></script>
-    <script src="<?php echo base_url('media/js/js/owl.carousel.min.js') ?>"></script>
-    <script src="<?php echo base_url('media//nivo-lightbox.min.js') ?>js/js"></script>
+    <script src="media/js/js/jquery.min.js"></script>  
+    <script src="media/js/js/bootstrap.min.js"></script>
+    <script src="media/js/js/jquery.sticky.js"></script>
+    <script src="media/js/js/jquery.flexslider-min.js"></script>
+    <script src="media/js/js/jquery.easing.min.js"></script>  
+    <script src="media/js/js/jquery.scrollTo.js"></script>
+    <script src="media/js/js/jquery.appear.js"></script>
+    <script src="media/js/js/stellar.js"></script>
+    <script src="media/js/js/wow.min.js"></script>
+    <script src="media/js/js/owl.carousel.min.js"></script>
+    <script src="media/js/js/nivo-lightbox.min.js"></script>
 
-    <script src="<?php echo base_url('media/js/js/custom.js') ?>"></script>
+    <script src="media/js/js/custom.js"></script>
 
 </body>
 
