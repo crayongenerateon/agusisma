@@ -253,9 +253,9 @@
                 </div>
                <div class="col-lg-4 feature text-center" id="date_1">
                     <img src="media/img/tes_6.png" alt="">
-                    <p>Minggu</p>
+                    <p><b> Minggu</b></p>
                     <h1>10</h1>
-                    <p>April 2016</p>
+                    <p><b> April 2016</b></p>
                     <img src="media/img/tes_5.png" alt="" class="test_1">
                 </div>
                 <div class="col-md-4 feature text-center">
