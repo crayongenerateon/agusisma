@@ -15,7 +15,7 @@
 
     <!-- Fonts -->
     
-    <link href="<?php echo base_url('media/font-awesome/css/font-awesome.min.css') ?>" rel="stylesheet" type="text/css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="<?php echo base_url('media/css/nivo-lightbox.css') ?>" rel="stylesheet" />
     <link href="<?php echo base_url('media/css/nivo-lightbox-theme/default/default.css') ?>" rel="stylesheet" type="text/css" />
     <link href="<?php echo base_url('media/css/animate.css') ?>" rel="stylesheet" />
@@ -28,7 +28,7 @@
 </head>
 
 <body data-spy="scroll">
-    
+
     <!--
     <div id="background_image">
         <img src="img/agus/fd.jpg" alt="">
@@ -68,7 +68,7 @@
     <!-- Navigation -->
     <section id="home">
 
-        
+
         <div id="background_image">
             <img src="<?php echo base_url('media/img/buatdewo_copy.jpg') ?>" alt="">
         </div> 
@@ -109,7 +109,7 @@
 <!-- Section: Story -->
 <section id="story" class="home-section text-center bg-gray">
 
-   
+
   <div class="heading-about">
     <div class="container marginbot-50">
         <div class="row">
@@ -203,7 +203,7 @@
         </div>
     </div>
 
-    
+
       <!--
       <div id="intro_1" class="intro_1">
             <div id="background_bottom" >
@@ -267,7 +267,7 @@
                     </p>
                 </div>
             </div>
-            
+
         </div>
     </div>
 </section> 
@@ -281,13 +281,13 @@
             <div class="heading-contact marginbot-50">
                <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
-                    
+
                     <div class="section-heading text-center">
                         <h2>Location</h2>
                         <img src="media/img/tes_3.png" alt="">
                         <p></p>
                     </div>
-                    
+
                 </div>
             </div>
         </div>
@@ -314,7 +314,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12 col-lg-12">
-                <p>Copyright &copy; 2016  - by <a href="http://rumahcg.com" target="_blank">rumahCG.com</a></p>
+                <p>Copyright <i class="fa fa-copyright"></i> 2016  - by <a href="http://rumahcg.com" target="_blank">rumahCG.com</a></p>
                     <!--</div>
                 
                     All links in the footer should remain intact. 
@@ -325,21 +325,21 @@
             </div> 
         </footer>
 
-        
-        <!-- Core JavaScript Files -->
-        <script src="media/js/js/jquery.min.js"></script>  
-        <script src="media/js/js/bootstrap.min.js"></script>
-        <script src="media/js/js/jquery.sticky.js"></script>
-        <script src="media/js/js/jquery.flexslider-min.js"></script>
-        <script src="media/js/js/jquery.easing.min.js"></script>  
-        <script src="media/js/js/jquery.scrollTo.js"></script>
-        <script src="media/js/js/jquery.appear.js"></script>
-        <script src="media/js/js/stellar.js"></script>
-        <script src="media/js/js/wow.min.js"></script>
-        <script src="media/js/js/owl.carousel.min.js"></script>
-        <script src="media/js/js/nivo-lightbox.min.js"></script>
 
-        <script src="media/js/js/custom.js"></script>
+        <!-- Core JavaScript Files -->
+        <script src="<?php echo base_url('media/js/js/jquery.min.js') ?>"></script>  
+        <script src="<?php echo base_url('media/js/js/bootstrap.min.js') ?>"></script>
+        <script src="<?php echo base_url('media/js/js/jquery.sticky.js') ?>"></script>
+        <script src="<?php echo base_url('media/js/js/jquery.flexslider-min.js') ?>"></script>
+        <script src="<?php echo base_url('media/js/js/jquery.easing.min.js') ?>"></script>  
+        <script src="<?php echo base_url('media/js/js/jquery.scrollTo.js') ?>"></script>
+        <script src="<?php echo base_url('media/js/js/jquery.appear.js') ?>"></script>
+        <script src="<?php echo base_url('media/js/js/stellar.js') ?>"></script>
+        <script src="<?php echo base_url('media/js/js/wow.min.js') ?>"></script>
+        <script src="<?php echo base_url('media/js/js/owl.carousel.min.js') ?>"></script>
+        <script src="<?php echo base_url('media/js/js/nivo-lightbox.min.js') ?>"></script>
+
+        <script src="<?php echo base_url('media/js/js/custom.js') ?>"></script>
 
     </body>
 
