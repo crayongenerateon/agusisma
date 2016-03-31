@@ -131,7 +131,7 @@
             <div class="row">
               <div class="each-story">
                 <div class="col-md-4">
-                  <h2 class="story-date p-sm-20 mt-sm-0"><em> September 2010</em></h2>
+                  <h2 class="story-date p-sm-20 mt-sm-0" ><em><b> September 2010</b></em></h2>
                 </div>
                 <div class="col-md-8">
                   <div class="story-details">
@@ -153,7 +153,7 @@
               </div>
               <div class="each-story">
                 <div class="col-md-4 pull-right">
-                  <h2 class="story-date p-sm-20 mt-sm-0"><em>November 2012</em></h2>
+                  <h2 class="story-date p-sm-20 mt-sm-0"><em><b> November 2012</b></em></h2>
                 </div>
                 <div class="col-md-8">
                   <div class="story-details">
@@ -173,7 +173,7 @@
               </div>
               <div class="each-story">
                 <div class="col-md-4">
-                  <h2 class="story-date p-sm-20 mt-sm-0"><em>Januari 2016</em></h2>
+                  <h2 class="story-date p-sm-20 mt-sm-0"><em><b> Januari 2016 </b></em></h2>
                 </div>
                 <div class="col-md-8">
                   <div class="story-details">
@@ -315,7 +315,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 col-lg-12">
-                        <p>Copyright &copy; 2016  - by <a href="http://#">rumahCG.com</a></p>
+                        <p>Copyright &copy; 2016  - by <a href="http://rumahcg.com" target="_blank">rumahCG.com</a></p>
                     <!--</div>
                 
                     All links in the footer should remain intact. 
