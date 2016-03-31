@@ -231,13 +231,13 @@ hr {
 }
 
 .section-heading p{
-	font-family: Savoye LET;
+	font-family: 'Savoye-LET';
 	font-size: 26px;
 	letter-spacing: 1.2px;
 }
 
 .row p{
-	font-family: Savoye LET;
+	font-family: 'Savoye LET';
 	font-size: 24px;
 	letter-spacing: 1.2px;
 }
@@ -390,7 +390,7 @@ hr {
 }
 
 .btn a{
-	font-family: Savoye LET;
+	font-family: 'Savoye-LET';
 	font-size: 20px;
 }
 
