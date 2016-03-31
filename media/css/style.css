@@ -226,6 +226,10 @@ hr {
 	
 }
 
+.row{
+	max-width: 100%;
+}
+
 .section-heading{
 	margin-bottom: 20%;
 }
